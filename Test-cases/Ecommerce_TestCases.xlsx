@@ -1,0 +1,11 @@
+# 🧪 E-commerce Test Cases
+
+## 🔐 Login Test Cases
+
+| Test ID | Scenario | Steps | Expected Result | Priority |
+|--------|---------|------|----------------|----------|
+| TC_LOGIN_01 | Valid Login | Enter valid email & password → Click login | User logs in successfully | High |
+| TC_LOGIN_02 | Invalid Password | Enter valid email + wrong password | Error message displayed | High |
+| TC_LOGIN_03 | Empty Fields | Leave email & password blank | Validation message shown | Medium |
+| TC_LOGIN_04 | Invalid Email Format | Enter invalid email format | Email validation error | Medium |
+| TC_LOGIN_05 | Password Masking | Enter password | Password should be hidden | Low |
